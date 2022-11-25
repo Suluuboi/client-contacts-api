@@ -1,6 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
+ * User: suluuboi
  * Date: 7/7/2020
  * Time: 9:57 AM
  */
@@ -8,7 +8,8 @@
 
 use app\controllers\AboutController;
 use app\controllers\SiteController;
-use thecodeholic\phpmvc\Application;
+use suluuboi\phpmvc\Application;
+use suluuboi\phpmvc\View; 
 
 require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = \Dotenv\Dotenv::createImmutable(dirname(__DIR__));
