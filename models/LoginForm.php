@@ -1,6 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
+ * User: suluuboi
  * Date: 7/25/2020
  * Time: 9:36 AM
  */
@@ -8,8 +8,8 @@
 namespace app\models;
 
 
-use thecodeholic\phpmvc\Application;
-use thecodeholic\phpmvc\Model;
+use suluuboi\phpmvc\Application;
+use suluuboi\phpmvc\Model;
 
 /**
  * Class LoginForm

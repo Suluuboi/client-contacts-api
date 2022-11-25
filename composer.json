@@ -1,18 +1,21 @@
 {
-    "name": "thecodeholic/phpmvc-framework",
-    "authors": [
-        {
-            "name": "Zura Sekhniashvili",
-            "email": "zurasekhniashvili@gmail.com"
-        }
-    ],
+    "name": "suluuboi/client-contacts-api",
+    "description": "mvc backend used to write data to and from mysql database",
+    "require": {
+        "suluuboi/client-contacts": "dev-master",
+        "vlucas/phpdotenv": "5.5.x-dev"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "app\\": "."
         }
     },
-    "require": {
-        "vlucas/phpdotenv": "^5.0",
-        "thecodeholic/php-mvc-core": "^v1.0.5"
-    }
+    "authors": [
+        {
+            "name": "Hans",
+            "email": "hansmbangu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }

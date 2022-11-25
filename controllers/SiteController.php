@@ -1,6 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
+ * User: suluuboi
  * Date: 7/8/2020
  * Time: 8:43 AM
  */
@@ -8,11 +8,11 @@
 namespace app\controllers;
 
 
-use thecodeholic\phpmvc\Application;
-use thecodeholic\phpmvc\Controller;
-use thecodeholic\phpmvc\middlewares\AuthMiddleware;
-use thecodeholic\phpmvc\Request;
-use thecodeholic\phpmvc\Response;
+use suluuboi\phpmvc\Application;
+use suluuboi\phpmvc\Controller;
+use suluuboi\phpmvc\middlewares\AuthMiddleware;
+use suluuboi\phpmvc\Request;
+use suluuboi\phpmvc\Response;
 use app\models\LoginForm;
 use app\models\User;
 
@@ -32,7 +32,7 @@ class SiteController extends Controller
     public function home()
     {
         return $this->render('home', [
-            'name' => 'TheCodeholic'
+            'name' => 'suluuboi'
         ]);
     }
 

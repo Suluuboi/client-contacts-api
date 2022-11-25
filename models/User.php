@@ -1,6 +1,6 @@
 <?php
 /**
- * User: TheCodeholic
+ * User: suluuboi
  * Date: 7/8/2020
  * Time: 9:15 AM
  */
@@ -8,8 +8,8 @@
 namespace app\models;
 
 
-use thecodeholic\phpmvc\DbModel;
-use thecodeholic\phpmvc\UserModel;
+use suluuboi\phpmvc\DbModel;
+use suluuboi\phpmvc\UserModel;
 
 /**
  * Class Register
